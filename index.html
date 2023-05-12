@@ -36,10 +36,29 @@
          border: 0px solid green;
         }           
         
+        .button {
+            background-color: gold; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+}
+
+        .button5:hover {
+            background-color: #1ae020;
+            color: white;
+        }
     </style>
     <title>HTML & CSS</title>
 </head>
 <body>
+    
     <div class="headerDiv"></div>
     <h1 style="text-align: center">
         Hosting a GitHub Site
@@ -60,6 +79,7 @@
             <button 
             style="background-color:gold; border: 0px solid white; height: 34px; width: 600px; border-radius: 12px;"
             onclick="alert('AHHH')"
+            class="button button5"
             >
                 Click here to be redirected to the GitHub site
             </button>
