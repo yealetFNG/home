@@ -66,6 +66,12 @@
     <title>HTML & CSS</title>
 </head>
 <body>
+
+    <script>
+        function myFunction() {
+          document.getElementById("demo").style.color = "red";
+        }
+        </script>
     
     <div class="headerDiv"></div>
     <h1 style="text-align: center">
@@ -86,7 +92,8 @@
         <div class="center">
             <button
             style="height: 60px; width: 625px;"
-            onclick="alert('AHHH')"
+            onclick="myFunction(); alert('Error 404: Bad Request')"
+            id="demo"
             class="button button1"
             >
                 Click here to be redirected to the GitHub site
